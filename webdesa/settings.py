@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'fauzimalik$default',
         'USER': 'fauzimalik',
-        'PASSWORD': 'Simpan_data/desa',
+        'PASSWORD': 'Sidomulyo_desaku!12345',
         'HOST': 'fauzimalik.mysql.pythonanywhere-services.com',
         'PORT': '3306',
         'OPTIONS': {
