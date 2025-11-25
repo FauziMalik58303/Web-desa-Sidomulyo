@@ -78,14 +78,11 @@ WSGI_APPLICATION = 'webdesa.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'fauzimalik$default',
-        'USER': 'fauzimalik',
-        'PASSWORD': 'Sidomulyo_desaku!12345',
-        'HOST': 'fauzimalik.mysql.pythonanywhere-services.com',
+        'NAME': 'db_desa',         # nama database MySQL yang kamu buat
+        'USER': 'root',            # user default XAMPP
+        'PASSWORD': '',            # kosongkan jika tidak pakai password
+        'HOST': 'localhost',
         'PORT': '3306',
-        'OPTIONS': {
-            'charset': 'utf8mb4',
-        },
     }
 }
 
